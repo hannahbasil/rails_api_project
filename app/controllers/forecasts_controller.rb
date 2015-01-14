@@ -1,6 +1,9 @@
 require 'open-uri'
 
 class ForecastsController < ApplicationController
+  def display_form_to_user
+  end
+
   def location
 
     # params = {"address"=>"5807+S+Woodlawn+Ave"}
