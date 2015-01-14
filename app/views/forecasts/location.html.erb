@@ -1,0 +1,7 @@
+<h1>Howdy!</h1>
+
+<p>The current temperature at <%= @url_safe_address %> is <%= @forecast_results["currently"]["temperature"] %> degrees.</p>
+
+<p>The outlook for the next hour is: <%= @forecast_results["minutely"]["summary"] %></p>
+
+<p>The outlook for the next day is: <%= @forecast_results["hourly"]["summary"] %></p>
